@@ -1,6 +1,8 @@
 class Dog
-  def name=()
+  def name=(string)
+    @name = string
   end
   def name
+    puts @name
   end
 end
